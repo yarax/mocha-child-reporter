@@ -3,7 +3,7 @@ var ProgressBar = require('progress'),
 
 process.on('message', function(data) {
     console.log(data.message);
-    if (data.message.match("...")) {
+    if (data.message.match(/\.\.\./)) {
         var timer = setInterval(function () {
             bar.tick();
             if (bar.complete) {
