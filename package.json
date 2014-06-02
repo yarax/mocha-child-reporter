@@ -1,18 +1,19 @@
 {
   "name": "mocha-child-reporter",
   "version": "0.0.1",
-  "description": "Reports mocha tests in the child process",
+  "description": "Reports mocha tests in the child process. Useful for apps, that rewrite output from console to log files",
   "keywords": [
     "mocha",
-    "reporter"
+    "reporter",
+    "logs"
   ],
   "author": {
     "name": "Krivtsov Roman",
     "email": "raxpost@gmail.com"
   },
   "repository": {
-    "type": "git",
-    "url": "git://github.com/Gagle/Node-MochaRunner.git"
+    "type": "http",
+    "url": "https://github.com/yarax/mocha-child-reporter.git"
   },
   "engines": {
     "node": "*"
