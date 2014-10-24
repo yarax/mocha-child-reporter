@@ -39,6 +39,11 @@ var chr = function (runner) {
     cp = require('child_process'),
     ps = cp.fork(__dirname + '/child.js');
 
+process.on('exit', function() {
+    ps.kill('SIGINT');
+});
+
+
 chr.prototype.init = function (runner) {
 
     var stats = { suites: 0, tests: 0, passes: 0, pending: 0, failures: 0 }
