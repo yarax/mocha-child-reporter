@@ -11,6 +11,7 @@
     "name": "Krivtsov Roman",
     "email": "raxpost@gmail.com"
   },
+  "main" : "index.js",
   "repository": {
     "type": "http",
     "url": "https://github.com/yarax/mocha-child-reporter.git"
